@@ -14,8 +14,8 @@ export default {
 </script>
 
 <template>
-    <app-main></app-main>
     <app-header></app-header>
+    <app-main></app-main>
     <app-footer></app-footer>
 
 </template>

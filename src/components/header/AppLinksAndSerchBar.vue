@@ -79,12 +79,15 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use "../../assets/partials/variale" as *;
+
 .contenitore {
     width: 70%;
     height: 100%;
+    background-color: $color_blue;
 
     i:hover {
-        color: #20AD96;
+        color: $color_blue;
     }
 
     .links {
@@ -99,6 +102,7 @@ export default {
     }
 
     li {
+
         list-style-type: none;
         width: 100%;
     }
@@ -112,7 +116,7 @@ export default {
         cursor: pointer;
 
         &:hover {
-            color: #20AD96;
+            color: $color_blue;
         }
 
     }
@@ -135,7 +139,7 @@ export default {
         }
 
         ul {
-            border-bottom: 3px solid #20AD96;
+            border-bottom: 3px solid $color_blue;
         }
 
         li {
@@ -144,7 +148,7 @@ export default {
             cursor: pointer;
 
             &:hover {
-                color: #20AD96;
+                color: $color_blue;
 
             }
         }
