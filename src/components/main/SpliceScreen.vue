@@ -71,6 +71,7 @@ export default {
         padding: 15px 50px;
         border: 1px solid $color_blue;
         color: white;
+        border-radius: 20px;
     }
 }
 </style>
