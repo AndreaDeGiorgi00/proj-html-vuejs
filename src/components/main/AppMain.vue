@@ -19,4 +19,5 @@ export default {
     <app-loghi></app-loghi>
     <online-course></online-course>
     <smart-tutoring></smart-tutoring>
+    <splice-screen orientamento="dx"></splice-screen>
 </template>
