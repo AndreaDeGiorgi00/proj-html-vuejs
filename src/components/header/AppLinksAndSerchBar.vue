@@ -49,7 +49,7 @@ export default {
 
                         <div class="menù-a-tendina" :class="isActive(i)">
                             <ul>
-                                <li></li>
+
                                 <li>Start Here</li>
                                 <li>Success Story</li>
                                 <li>About me</li>
@@ -83,6 +83,9 @@ export default {
     width: 70%;
     height: 100%;
 
+    i:hover {
+        color: #20AD96;
+    }
 
     .links {
         width: 70%;
@@ -121,7 +124,7 @@ export default {
     }
 
     .menù-a-tendina {
-        background-color: grey;
+
         position: absolute;
         top: 120%;
         left: 0;
@@ -131,8 +134,19 @@ export default {
             display: block;
         }
 
+        ul {
+            border-bottom: 3px solid #20AD96;
+        }
+
         li {
             padding: 5px;
+            color: rgb(59, 59, 59);
+            cursor: pointer;
+
+            &:hover {
+                color: #20AD96;
+
+            }
         }
 
 
