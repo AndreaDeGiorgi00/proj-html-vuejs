@@ -49,6 +49,7 @@ h6 {
     margin: 50px auto;
     width: 80%;
     text-align: center;
+    padding-bottom: 50px;
 
     button {
         color: white;
