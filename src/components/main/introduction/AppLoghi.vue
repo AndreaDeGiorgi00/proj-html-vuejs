@@ -19,7 +19,7 @@ export default {
 </script>
 
 <template>
-    <span>colore rosso</span>
+
     <div class="container d-flex justify-content-between ">
         <img v-for="i in 6" :src="getlogo(i)" alt="logo" class="logo">
 

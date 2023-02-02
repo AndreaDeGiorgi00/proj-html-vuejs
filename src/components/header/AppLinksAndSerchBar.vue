@@ -84,7 +84,7 @@ export default {
 .contenitore {
     width: 70%;
     height: 100%;
-    background-color: $color_blue;
+
 
     i:hover {
         color: $color_blue;
@@ -93,6 +93,7 @@ export default {
     .links {
         width: 70%;
         margin-right: 2rem;
+
     }
 
     ul {
@@ -133,6 +134,7 @@ export default {
         top: 120%;
         left: 0;
         display: none;
+        background-color: white;
 
         &.active {
             display: block;
